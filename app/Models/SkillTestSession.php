@@ -20,7 +20,7 @@ class SkillTestSession extends Model
 
     public function skillTest()
     {
-        return $this->belongsTo(SkillTest::class);
+        return $this->belongsToMany(SkillTest::class);
     }
 
     public function testAttempts()

@@ -21,7 +21,7 @@ class SkillTest extends Model
 
     public function mataSoal() 
     {
-        return $this->belongsTo(QuestionTitle::class);
+        return $this->hasMany(QuestionTitle::class);
     }
 
     public function keahlian() 
@@ -36,6 +36,6 @@ class SkillTest extends Model
 
     public function sesiTesKeahlian()
     {
-        return $this->hasOne(SkillTestSession::class);
+        return $this->hasMany(SkillTestSession::class);
     }
 }
