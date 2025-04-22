@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-Apache%202.0-red.svg" alt="License: Apache 2.0">
-  <img src="https://img.shields.io/badge/version-2.6.0-green.svg" alt="Version: 2.6.0">
+  <img src="https://img.shields.io/badge/version-2.7.0-green.svg" alt="Version: 2.7.0">
 </p>
 
 ## Deskripsi
@@ -48,7 +48,7 @@ Sistem Informasi Pendaftaran Pelatihan Kerja adalah aplikasi untuk pendaftaran p
 1. **Clone Repository**
 
     ```bash
-    git clone https://github.com/ekayudi/sippeka48.git
+    git clone https://github.com/hmifsttmimalang/sippeka-web.git
     ```
 
 2. **Pindahkan Folder Proyek**
@@ -56,13 +56,13 @@ Sistem Informasi Pendaftaran Pelatihan Kerja adalah aplikasi untuk pendaftaran p
     Pindahkan folder proyek ke direktori `www` di Laragon.
 
     ```bash
-    mv sippeka-web path/to/Laragon/www/sippeka48
+    mv sippeka-web path/to/Laragon/www/sippeka-web
     ```
 
     Jika menggunakan XAMPP, maka pindahkan folder proyek ke direktori `htdocs` di XAMPP.
 
     ```bash
-    mv sippeka-web path/to/XAMPP/htdocs/sippeka48
+    mv sippeka-web path/to/XAMPP/htdocs/sippeka-web
     ```
 
 3. **Instalasi Dependensi**
